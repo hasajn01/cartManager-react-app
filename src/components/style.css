@@ -1,0 +1,51 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .product {
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+  }
+  
+  .name-price {
+    margin-top: 10px;
+  }
+  
+  
+
+.button {
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+
+    width: 313px;
+    height: 41px;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.cartEmpty {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
